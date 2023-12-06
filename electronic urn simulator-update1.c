@@ -13,8 +13,8 @@ struct candidato [] ={
 {"Taylor Swift, 3"},
 {"Dart Vader, 4"}
 };
-    struct candidato *candidato;
-      for (int i = 0; i < sizeof(candidato) / sizeof(candidatos[0]); i++) {
+    struct candidato *candidato a;
+      fo  r (int i = 0; i < sizeof(candidato) / sizeof(candidatos[0]);  i++) {
         //Pede para o usuário entrar com um voto
         
         printf("Escolha um candidato ( entre 1 e 4 %d %c):", candidatos[i].nome);
